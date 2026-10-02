@@ -16,8 +16,21 @@ I am an Electronics and Communication Engineering student passionate about Embed
 [![](https://komarev.com/ghpvc/?username=Varshakumar-06&icon=9&color=9)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-## 🐍 My GitHub Contributions
+<h2>🐍 My GitHub Contributions</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Varshakumar-06/Varshakumar-06/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/Varshakumar-06/Varshakumar-06/output/github-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/Varshakumar-06/Varshakumar-06/output/github-snake.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/Varshakumar-06/Varshakumar-06/output/github-snake.svg"
+      alt="GitHub Contribution Snake"
+    />
+  </picture>
 </p>
