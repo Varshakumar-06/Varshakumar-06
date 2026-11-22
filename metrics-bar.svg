@@ -1,42 +1,80 @@
-<svg width="960" height="140" viewBox="0 0 960 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="960" height="150" viewBox="0 0 960 150" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="metricCard" x1="0%" y1="0%" x2="SRM AP" y2="SRM AP">
-      <stop offset="0%" stop-color="#230a20"/>
-      <stop offset="SRM AP" stop-color="#180516"/>
+    
+    <linearGradient id="baseBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#59143F"/>
+      <stop offset="50%" stop-color="#FF2D75" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3A1033"/>
+    </linearGradient>
+    <linearGradient id="trailGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2D75"/>
+      <stop offset="50%" stop-color="#FF4F91"/>
+      <stop offset="100%" stop-color="#FF6B9D"/>
+    </linearGradient>
+    <linearGradient id="roseCTA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2D75"/>
+      <stop offset="100%" stop-color="#FF6584"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <linearGradient id="metBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#340D2E"/>
+      <stop offset="50%" stop-color="#3A1033"/>
+      <stop offset="100%" stop-color="#2C0B25"/>
+    </linearGradient>
+    <linearGradient id="metCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3F1237"/>
+      <stop offset="100%" stop-color="#280A23"/>
     </linearGradient>
   </defs>
 
-  <rect x="2" y="2" width="956" height="136" rx="16" fill="#170515" stroke="#3d1234" stroke-width="1.2"/>
+  <rect width="960" height="150" rx="18" fill="url(#metBg)"/>
+  
+    <!-- Static Gradient Border -->
+    <rect x="3" y="3" width="954" height="144" rx="18" fill="none" stroke="url(#baseBorder)" stroke-width="1.2" stroke-opacity="0.7"/>
+    <!-- Glow Aura -->
+    <rect x="3" y="3" width="954" height="144" rx="18" fill="none" stroke="#FF4F91" stroke-width="6" stroke-dasharray="160 2029" stroke-linecap="round" opacity="0.35" filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset" values="0;-2189" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Core Light Trail -->
+    <rect x="3" y="3" width="954" height="144" rx="18" fill="none" stroke="url(#trailGrad)" stroke-width="2.5" stroke-dasharray="160 2029" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" values="0;-2189" dur="4s" repeatCount="indefinite"/>
+    </rect>
 
   <!-- Card 1 -->
-  <g transform="translate(24, 20)">
-    <rect width="210" height="100" rx="12" fill="url(#metricCard)" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
-    <text x="22" y="44" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="36" font-weight="800">7.52</text>
-    <text x="22" y="70" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1">CUMULATIVE CGPA</text>
-    <text x="22" y="87" fill="#a87698" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">SRM University AP</text>
+  <g transform="translate(22,20)">
+    <rect width="215" height="110" rx="14" fill="url(#metCard)" stroke="#FF2D75" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="22" y="48" fill="#FFF" font-family="Georgia,serif" font-size="38" font-weight="800">7.52</text>
+    <text x="22" y="72" fill="#FF6B9D" font-family="'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700" letter-spacing="1">CUMULATIVE CGPA</text>
+    <text x="22" y="92" fill="#A87698" font-family="'Segoe UI',Roboto,sans-serif" font-size="10.5">SRM University AP</text>
   </g>
 
   <!-- Card 2 -->
-  <g transform="translate(254, 20)">
-    <rect width="210" height="100" rx="12" fill="url(#metricCard)" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
-    <text x="22" y="44" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="36" font-weight="800">6+</text>
-    <text x="22" y="70" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1">VERIFIED PROJECTS</text>
-    <text x="22" y="87" fill="#a87698" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Embedded, IoT &amp; CV</text>
+  <g transform="translate(254,20)">
+    <rect width="215" height="110" rx="14" fill="url(#metCard)" stroke="#FF2D75" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="22" y="48" fill="#FFF" font-family="Georgia,serif" font-size="38" font-weight="800">6+</text>
+    <text x="22" y="72" fill="#FF6B9D" font-family="'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700" letter-spacing="1">VERIFIED PROJECTS</text>
+    <text x="22" y="92" fill="#A87698" font-family="'Segoe UI',Roboto,sans-serif" font-size="10.5">Embedded, IoT &amp; CV</text>
   </g>
 
   <!-- Card 3 -->
-  <g transform="translate(484, 20)">
-    <rect width="210" height="100" rx="12" fill="url(#metricCard)" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
-    <text x="22" y="44" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="36" font-weight="800">2027</text>
-    <text x="22" y="70" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1">GRADUATING BATCH</text>
-    <text x="22" y="87" fill="#a87698" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">B.Tech in ECE</text>
+  <g transform="translate(486,20)">
+    <rect width="215" height="110" rx="14" fill="url(#metCard)" stroke="#FF2D75" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="22" y="48" fill="#FFF" font-family="Georgia,serif" font-size="38" font-weight="800">2027</text>
+    <text x="22" y="72" fill="#FF6B9D" font-family="'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700" letter-spacing="1">GRADUATING BATCH</text>
+    <text x="22" y="92" fill="#A87698" font-family="'Segoe UI',Roboto,sans-serif" font-size="10.5">B.Tech in ECE</text>
   </g>
 
   <!-- Card 4 -->
-  <g transform="translate(714, 20)">
-    <rect width="222" height="100" rx="12" fill="url(#metricCard)" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
-    <text x="22" y="44" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="36" font-weight="800">SRM AP</text>
-    <text x="22" y="70" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1">INSTITUTION</text>
-    <text x="22" y="87" fill="#a87698" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Department of ECE</text>
+  <g transform="translate(718,20)">
+    <rect width="220" height="110" rx="14" fill="url(#metCard)" stroke="#FF2D75" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="22" y="48" fill="#FFF" font-family="Georgia,serif" font-size="38" font-weight="800">SRM</text>
+    <text x="22" y="72" fill="#FF6B9D" font-family="'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700" letter-spacing="1">INSTITUTION</text>
+    <text x="22" y="92" fill="#A87698" font-family="'Segoe UI',Roboto,sans-serif" font-size="10.5">Department of ECE</text>
   </g>
 </svg>

@@ -1,62 +1,117 @@
-<svg width="960" height="340" viewBox="0 0 960 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="960" height="380" viewBox="0 0 960 380" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="scardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#22091f"/>
-      <stop offset="100%" stop-color="#160415"/>
+    
+    <linearGradient id="baseBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#59143F"/>
+      <stop offset="50%" stop-color="#FF2D75" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3A1033"/>
     </linearGradient>
+    <linearGradient id="trailGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2D75"/>
+      <stop offset="50%" stop-color="#FF4F91"/>
+      <stop offset="100%" stop-color="#FF6B9D"/>
+    </linearGradient>
+    <linearGradient id="roseCTA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2D75"/>
+      <stop offset="100%" stop-color="#FF6584"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <linearGradient id="skillsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#280A23"/>
+      <stop offset="40%" stop-color="#341230"/>
+      <stop offset="100%" stop-color="#200820"/>
+    </linearGradient>
+    <radialGradient id="skillsGlow" cx="70%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#59143F" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#59143F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sc1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#3D1137"/><stop offset="100%" stop-color="#2A0B25"/></linearGradient>
+    <linearGradient id="sc2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#381030"/><stop offset="100%" stop-color="#250922"/></linearGradient>
+    <linearGradient id="sc3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#331030"/><stop offset="100%" stop-color="#220820"/></linearGradient>
+    <linearGradient id="sc4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#3A1133"/><stop offset="100%" stop-color="#270A24"/></linearGradient>
   </defs>
 
-  <rect x="2" y="2" width="956" height="336" rx="18" fill="#150413" stroke="#3d1234" stroke-width="1.3"/>
+  <rect width="960" height="380" rx="20" fill="url(#skillsBg)"/>
+  <rect width="960" height="380" rx="20" fill="url(#skillsGlow)"/>
+  
+    <!-- Static Gradient Border -->
+    <rect x="3" y="3" width="954" height="374" rx="20" fill="none" stroke="url(#baseBorder)" stroke-width="1.2" stroke-opacity="0.7"/>
+    <!-- Glow Aura -->
+    <rect x="3" y="3" width="954" height="374" rx="20" fill="none" stroke="#FF4F91" stroke-width="6" stroke-dasharray="210 2435" stroke-linecap="round" opacity="0.35" filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset" values="0;-2645" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Core Light Trail -->
+    <rect x="3" y="3" width="954" height="374" rx="20" fill="none" stroke="url(#trailGrad)" stroke-width="2.5" stroke-dasharray="210 2435" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" values="0;-2645" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
 
-  <!-- Section Header -->
-  <text x="42" y="36" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="2">04 • THE TOOLS I REACH FOR</text>
-  <text x="42" y="66" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="700">Engineering &amp; Software Arsenal</text>
+  <!-- Section Heading -->
+  <text x="42" y="36" fill="#FF6B9D" font-family="'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700" letter-spacing="2">04 • THE TOOLS I REACH FOR</text>
+  <text x="42" y="68" fill="#FFF" font-family="Georgia,serif" font-size="26" font-weight="700">Engineering &amp; Software Arsenal</text>
 
   <!-- Card 1: Programming -->
-  <g transform="translate(42, 88)">
-    <rect width="206" height="220" rx="14" fill="url(#scardBg)" stroke="#ff2d75" stroke-opacity="0.25" stroke-width="1"/>
-    <text x="20" y="32" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">01 • LANGUAGES</text>
-    <text x="20" y="62" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">C</text>
-    <text x="20" y="88" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Embedded C</text>
-    <text x="20" y="114" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Python</text>
-    <text x="20" y="140" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">JavaScript</text>
-    <text x="20" y="164" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">HTML5 / CSS3</text>
-    <text x="20" y="196" fill="#9c6d8d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">FIRMWARE &amp; SCRIPTING</text>
+  <g transform="translate(42,90)">
+    <rect width="206" height="260" rx="14" fill="url(#sc1)" stroke="#FF2D75" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="20" y="32" fill="#FF6B9D" font-family="'Segoe UI',Roboto,sans-serif" font-size="10.5" font-weight="700" letter-spacing="1">01 • LANGUAGES</text>
+    <line x1="20" y1="42" x2="186" y2="42" stroke="#FF2D75" stroke-opacity="0.2" stroke-width="1"/>
+    <text x="20" y="66" fill="#FFF" font-family="'Segoe UI',Roboto,sans-serif" font-size="15" font-weight="700">C</text>
+    <text x="20" y="92" fill="#FFF" font-family="'Segoe UI',Roboto,sans-serif" font-size="15" font-weight="700">Embedded C</text>
+    <text x="20" y="118" fill="#FFF" font-family="'Segoe UI',Roboto,sans-serif" font-size="15" font-weight="700">Python</text>
+    <text x="20" y="148" fill="#E2CAD8" font-family="'Segoe UI',Roboto,sans-serif" font-size="13">JavaScript</text>
+    <text x="20" y="174" fill="#E2CAD8" font-family="'Segoe UI',Roboto,sans-serif" font-size="13">HTML5 / CSS3</text>
+    <text x="20" y="210" fill="#FF6B9D" font-family="'Segoe UI',Roboto,sans-serif" font-size="10" font-weight="600" letter-spacing="0.5">▸ FIRMWARE &amp; SCRIPTING</text>
+    <rect x="20" y="224" width="80" height="4" rx="2" fill="#FF2D75" opacity="0.5"/>
+    <rect x="20" y="224" width="55" height="4" rx="2" fill="#FF2D75"/>
   </g>
 
-  <!-- Card 2: Embedded & IoT -->
-  <g transform="translate(266, 88)">
-    <rect width="206" height="220" rx="14" fill="url(#scardBg)" stroke="#ff2d75" stroke-opacity="0.25" stroke-width="1"/>
-    <text x="20" y="32" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">02 • EMBEDDED &amp; IOT</text>
-    <text x="20" y="62" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Arduino Uno</text>
-    <text x="20" y="88" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">ESP32 SoC</text>
-    <text x="20" y="114" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">PIC16F877A</text>
-    <text x="20" y="140" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">IoT &amp; Blynk Cloud</text>
-    <text x="20" y="164" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">UART, Timers, Relays</text>
-    <text x="20" y="196" fill="#9c6d8d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">HARDWARE CONTROL</text>
+  <!-- Card 2: Embedded &amp; IoT -->
+  <g transform="translate(266,90)">
+    <rect width="206" height="260" rx="14" fill="url(#sc2)" stroke="#FF2D75" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="20" y="32" fill="#FF6B9D" font-family="'Segoe UI',Roboto,sans-serif" font-size="10.5" font-weight="700" letter-spacing="1">02 • EMBEDDED &amp; IoT</text>
+    <line x1="20" y1="42" x2="186" y2="42" stroke="#FF2D75" stroke-opacity="0.2" stroke-width="1"/>
+    <text x="20" y="66" fill="#FFF" font-family="'Segoe UI',Roboto,sans-serif" font-size="15" font-weight="700">Arduino Uno</text>
+    <text x="20" y="92" fill="#FFF" font-family="'Segoe UI',Roboto,sans-serif" font-size="15" font-weight="700">ESP32 SoC</text>
+    <text x="20" y="118" fill="#FFF" font-family="'Segoe UI',Roboto,sans-serif" font-size="15" font-weight="700">PIC16F877A</text>
+    <text x="20" y="148" fill="#E2CAD8" font-family="'Segoe UI',Roboto,sans-serif" font-size="13">IoT &amp; Blynk Cloud</text>
+    <text x="20" y="174" fill="#E2CAD8" font-family="'Segoe UI',Roboto,sans-serif" font-size="13">UART, Timers, Relays</text>
+    <text x="20" y="210" fill="#FF6B9D" font-family="'Segoe UI',Roboto,sans-serif" font-size="10" font-weight="600" letter-spacing="0.5">▸ HARDWARE CONTROL</text>
+    <rect x="20" y="224" width="80" height="4" rx="2" fill="#FF2D75" opacity="0.5"/>
+    <rect x="20" y="224" width="65" height="4" rx="2" fill="#FF2D75"/>
   </g>
 
-  <!-- Card 3: VLSI & Digital Design -->
-  <g transform="translate(490, 88)">
-    <rect width="206" height="220" rx="14" fill="url(#scardBg)" stroke="#ff2d75" stroke-opacity="0.25" stroke-width="1"/>
-    <text x="20" y="32" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">03 • VLSI &amp; LOGIC</text>
-    <text x="20" y="62" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Cadence Virtuoso</text>
-    <text x="20" y="88" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Verilog HDL</text>
-    <text x="20" y="114" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Digital Electronics</text>
-    <text x="20" y="140" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">CMOS Fundamentals</text>
-    <text x="20" y="164" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">RTL Architecture</text>
-    <text x="20" y="196" fill="#9c6d8d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">SILICON &amp; RTL TRACK</text>
+  <!-- Card 3: VLSI -->
+  <g transform="translate(490,90)">
+    <rect width="206" height="260" rx="14" fill="url(#sc3)" stroke="#FF2D75" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="20" y="32" fill="#FF6B9D" font-family="'Segoe UI',Roboto,sans-serif" font-size="10.5" font-weight="700" letter-spacing="1">03 • VLSI &amp; LOGIC</text>
+    <line x1="20" y1="42" x2="186" y2="42" stroke="#FF2D75" stroke-opacity="0.2" stroke-width="1"/>
+    <text x="20" y="66" fill="#FFF" font-family="'Segoe UI',Roboto,sans-serif" font-size="15" font-weight="700">Cadence Virtuoso</text>
+    <text x="20" y="92" fill="#FFF" font-family="'Segoe UI',Roboto,sans-serif" font-size="15" font-weight="700">Verilog HDL</text>
+    <text x="20" y="118" fill="#FFF" font-family="'Segoe UI',Roboto,sans-serif" font-size="15" font-weight="700">Digital Electronics</text>
+    <text x="20" y="148" fill="#E2CAD8" font-family="'Segoe UI',Roboto,sans-serif" font-size="13">CMOS Fundamentals</text>
+    <text x="20" y="174" fill="#E2CAD8" font-family="'Segoe UI',Roboto,sans-serif" font-size="13">RTL Architecture</text>
+    <text x="20" y="210" fill="#FF6B9D" font-family="'Segoe UI',Roboto,sans-serif" font-size="10" font-weight="600" letter-spacing="0.5">▸ SILICON &amp; RTL TRACK</text>
+    <rect x="20" y="224" width="80" height="4" rx="2" fill="#FF2D75" opacity="0.5"/>
+    <rect x="20" y="224" width="45" height="4" rx="2" fill="#FF2D75"/>
   </g>
 
-  <!-- Card 4: Tools & Platforms -->
-  <g transform="translate(714, 88)">
-    <rect width="204" height="220" rx="14" fill="url(#scardBg)" stroke="#ff2d75" stroke-opacity="0.25" stroke-width="1"/>
-    <text x="20" y="32" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">04 • TOOLS &amp; SUITES</text>
-    <text x="20" y="62" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Xilinx Vivado</text>
-    <text x="20" y="88" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">MPLAB X IDE</text>
-    <text x="20" y="114" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">PICSimLab</text>
-    <text x="20" y="140" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">MATLAB Simulation</text>
-    <text x="20" y="164" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">Git, GitHub, VS Code</text>
-    <text x="20" y="196" fill="#9c6d8d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">DEV &amp; SIMULATION</text>
+  <!-- Card 4: Tools -->
+  <g transform="translate(714,90)">
+    <rect width="206" height="260" rx="14" fill="url(#sc4)" stroke="#FF2D75" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="20" y="32" fill="#FF6B9D" font-family="'Segoe UI',Roboto,sans-serif" font-size="10.5" font-weight="700" letter-spacing="1">04 • TOOLS &amp; SUITES</text>
+    <line x1="20" y1="42" x2="186" y2="42" stroke="#FF2D75" stroke-opacity="0.2" stroke-width="1"/>
+    <text x="20" y="66" fill="#FFF" font-family="'Segoe UI',Roboto,sans-serif" font-size="15" font-weight="700">Xilinx Vivado</text>
+    <text x="20" y="92" fill="#FFF" font-family="'Segoe UI',Roboto,sans-serif" font-size="15" font-weight="700">MPLAB X IDE</text>
+    <text x="20" y="118" fill="#FFF" font-family="'Segoe UI',Roboto,sans-serif" font-size="15" font-weight="700">PICSimLab</text>
+    <text x="20" y="148" fill="#E2CAD8" font-family="'Segoe UI',Roboto,sans-serif" font-size="13">MATLAB Simulation</text>
+    <text x="20" y="174" fill="#E2CAD8" font-family="'Segoe UI',Roboto,sans-serif" font-size="13">Git, GitHub, VS Code</text>
+    <text x="20" y="210" fill="#FF6B9D" font-family="'Segoe UI',Roboto,sans-serif" font-size="10" font-weight="600" letter-spacing="0.5">▸ DEV &amp; SIMULATION</text>
+    <rect x="20" y="224" width="80" height="4" rx="2" fill="#FF2D75" opacity="0.5"/>
+    <rect x="20" y="224" width="60" height="4" rx="2" fill="#FF2D75"/>
   </g>
 </svg>
