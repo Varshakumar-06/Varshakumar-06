@@ -82,7 +82,7 @@
   <!-- Subtitle Pill -->
   <g transform="translate(48,155)">
     <rect width="490" height="28" rx="14" fill="#3A1033" stroke="#FF2D75" stroke-opacity="0.3" stroke-width="1"/>
-    <text x="18" y="18" fill="#FBCFE8" font-family="'Segoe UI',Roboto,sans-serif" font-size="11.5" font-weight="600" letter-spacing="0.8">ECE UNDERGRAD • SRM UNIVERSITY AP • CLASS OF 2027 • CGPA: 7.52</text>
+    <text x="18" y="18" fill="#FBCFE8" font-family="'Segoe UI',Roboto,sans-serif" font-size="11.5" font-weight="600" letter-spacing="0.8">ECE UNDERGRADUATE • SRM UNIVERSITY AP • CLASS OF 2027 • CGPA: 7.52</text>
   </g>
 
   <!-- Taglines -->
@@ -113,7 +113,7 @@
     <circle cx="28" cy="30" r="14" fill="#3A1033" stroke="#FF2D75" stroke-opacity="0.5"/>
     <text x="28" y="35" fill="#FF4F91" font-family="Georgia,serif" font-size="14" font-weight="800" text-anchor="middle">SRM</text>
     <text x="54" y="26" fill="#FFFFFF" font-family="'Segoe UI',Roboto,sans-serif" font-size="13" font-weight="700">SRM University AP, Andhra Pradesh</text>
-    <text x="54" y="44" fill="#FF8CB2" font-family="'Segoe UI',Roboto,sans-serif" font-size="11">Electronics &amp; Communication Engineering • Active Undergrad</text>
+    <text x="54" y="44" fill="#FF8CB2" font-family="'Segoe UI',Roboto,sans-serif" font-size="11">Electronics &amp; Communication Engineering • Active Undergraduate</text>
   </g>
 
   <!-- Right Side: Glowing Vector ECE Core & Orbital Medallion -->
