@@ -30,7 +30,7 @@
 
 ## 👨‍💻 About Me
 
-I am a third-year **Electronics & Communication Engineering** undergraduate at **SRM University AP** (Class of 2027, CGPA: 7.52). 
+I am a Final Year **Electronics & Communication Engineering** undergraduate at **SRM University AP** (Class of 2027, CGPA: 7.52). 
 
 My engineering focus bridges physical hardware architectures and software solutions:
 * 🔬 **Embedded Systems & Firmware:** Developing deterministic microcontroller applications using **Embedded C**, **PIC16F877A**, and **ESP32**.
