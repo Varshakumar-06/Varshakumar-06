@@ -13,7 +13,7 @@
   <rect x="2" y="2" width="956" height="211" rx="16" fill="url(#pcardBg_Varsha-kumar-Smart-Home-Automation-)" stroke="#431439" stroke-width="1.3"/>
 
   <!-- Category Tag -->
-  <text x="42" y="38" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.2">02 | IOT & DUAL-CORE MICROARCHITECTURE | ESP32 • C++ • CLOUD</text>
+  <text x="42" y="38" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.2">02 | IOT &amp; DUAL-CORE MICROARCHITECTURE | ESP32 • C++ • CLOUD</text>
 
   <!-- Title -->
   <text x="42" y="74" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="700">ESP32 Smart Home Automation</text>
