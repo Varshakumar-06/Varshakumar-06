@@ -1,0 +1,50 @@
+<svg width="960" height="280" viewBox="0 0 960 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f071c"/>
+      <stop offset="100%" stop-color="#140413"/>
+    </linearGradient>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#280c25"/>
+      <stop offset="100%" stop-color="#190617"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="956" height="276" rx="18" fill="url(#cardBg)" stroke="#431439" stroke-width="1.5"/>
+
+  <!-- Section Header -->
+  <g transform="translate(42, 34)">
+    <text fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">01 • ABOUT</text>
+    <text y="32" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="700">Hello, I'm Varsha.</text>
+  </g>
+
+  <!-- Left: Terminal / Code Spec Box -->
+  <g transform="translate(42, 92)">
+    <rect width="470" height="154" rx="12" fill="url(#termBg)" stroke="#ff2d75" stroke-opacity="0.25" stroke-width="1"/>
+    <!-- Terminal dots in muted rose -->
+    <circle cx="20" cy="18" r="4.5" fill="#f43f5e"/>
+    <circle cx="36" cy="18" r="4.5" fill="#fb7185" fill-opacity="0.6"/>
+    <circle cx="52" cy="18" r="4.5" fill="#fda4af" fill-opacity="0.4"/>
+    
+    <text x="20" y="48" fill="#ff6584" font-family="'Fira Code', monospace" font-size="12" font-weight="600">$ identity</text>
+    <text x="135" y="48" fill="#ffffff" font-family="'Fira Code', monospace" font-size="12">B. Varsha Kumar (ECE '27)</text>
+
+    <text x="20" y="74" fill="#ff6584" font-family="'Fira Code', monospace" font-size="12" font-weight="600">$ university</text>
+    <text x="135" y="74" fill="#fbcfe8" font-family="'Fira Code', monospace" font-size="12">SRM University AP • CGPA: 7.52</text>
+
+    <text x="20" y="100" fill="#ff6584" font-family="'Fira Code', monospace" font-size="12" font-weight="600">$ focus</text>
+    <text x="135" y="100" fill="#e2cad8" font-family="'Fira Code', monospace" font-size="12">Embedded Systems, VLSI, IoT, CV</text>
+
+    <text x="20" y="126" fill="#ff6584" font-family="'Fira Code', monospace" font-size="12" font-weight="600">$ mission</text>
+    <text x="135" y="126" fill="#34d399" font-family="'Fira Code', monospace" font-size="12">Bridging silicon logic with smart software.</text>
+  </g>
+
+  <!-- Right: Narrative Bio Box -->
+  <g transform="translate(534, 92)">
+    <rect width="384" height="154" rx="12" fill="#1b0619" stroke="#45143a" stroke-width="1"/>
+    <text x="22" y="32" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="600">Hardware Precision meets Modern Software</text>
+    <text x="22" y="60" fill="#d4a5c3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5">I am an Electronics and Communication Engineering undergraduate passionate about physical computing.</text>
+    <text x="22" y="86" fill="#d4a5c3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5">From writing low-level C firmware on PIC microcontrollers to simulating CMOS layouts in Cadence Virtuoso and deploying real-time OpenCV fatigue monitors, I build reliable, production-minded systems.</text>
+    <text x="22" y="132" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">ACTIVE LEARNER • HARDWARE-SOFTWARE INTEGRATOR</text>
+  </g>
+</svg>

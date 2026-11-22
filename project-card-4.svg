@@ -1,0 +1,51 @@
+<svg width="960" height="215" viewBox="0 0 960 215" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pcardBg_Weather-Monitoring-System" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#21081e"/>
+      <stop offset="100%" stop-color="#160414"/>
+    </linearGradient>
+    <linearGradient id="pBtnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2d75"/>
+      <stop offset="100%" stop-color="#ff6584"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="956" height="211" rx="16" fill="url(#pcardBg_Weather-Monitoring-System)" stroke="#431439" stroke-width="1.3"/>
+
+  <!-- Category Tag -->
+  <text x="42" y="38" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.2">04 | CLOUD TELEMETRY & SENSORS | ESP32 • BLYNK IOT</text>
+
+  <!-- Title -->
+  <text x="42" y="74" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="700">IoT Weather Monitoring Terminal</text>
+
+  <!-- Description -->
+  <text x="42" y="104" fill="#d4a5c3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" width="800">
+    <tspan x="42" dy="0">Continuous meteorological data acquisition terminal capturing ambient temperature and relative humidity via digital</tspan>
+    <tspan x="42" dy="19"> transducers. Synchronizes metrics in real time with Blynk IoT cloud dashboards and mobile alert thresholds.</tspan>
+  </text>
+
+  <!-- Pills -->
+  
+    <g transform="translate(42, 145)">
+      <rect width="136.5" height="24" rx="12" fill="#280b24" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="68.25" y="16" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Blynk IoT Cloud</text>
+    </g>
+    <g transform="translate(188.5, 145)">
+      <rect width="174.0" height="24" rx="12" fill="#280b24" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="87.0" y="16" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">DHT Transducer Array</text>
+    </g>
+    <g transform="translate(372.5, 145)">
+      <rect width="159.0" height="24" rx="12" fill="#280b24" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="79.5" y="16" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Virtual Pins V0-V4</text>
+    </g>
+    <g transform="translate(541.5, 145)">
+      <rect width="219.0" height="24" rx="12" fill="#280b24" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="109.5" y="16" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Push Notification Alerting</text>
+    </g>
+
+  <!-- Action CTA Button -->
+  <g transform="translate(730, 80)">
+    <rect width="188" height="40" rx="20" fill="url(#pBtnGrad)"/>
+    <text x="94" y="25" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.5" text-anchor="middle">VIEW REPOSITORY ➔</text>
+  </g>
+</svg>

@@ -1,0 +1,110 @@
+<svg width="960" height="420" viewBox="0 0 960 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e071a"/>
+      <stop offset="45%" stop-color="#2c0e27"/>
+      <stop offset="100%" stop-color="#140413"/>
+    </linearGradient>
+    <linearGradient id="roseAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2d75"/>
+      <stop offset="100%" stop-color="#ff6584"/>
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#360f30"/>
+      <stop offset="100%" stop-color="#1d071b"/>
+    </linearGradient>
+    <radialGradient id="heroGlow" cx="80%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="#ff2d75" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#ff2d75" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ff2d75" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#ff2d75" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect x="2" y="2" width="956" height="416" rx="20" fill="url(#heroBg)" stroke="#45143a" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="2" y="2" width="956" height="416" rx="20" fill="url(#heroGlow)"/>
+
+  <!-- Top Pill Tag -->
+  <g transform="translate(48, 42)">
+    <rect width="360" height="28" rx="14" fill="#ff2d75" fill-opacity="0.12" stroke="#ff2d75" stroke-opacity="0.35" stroke-width="1"/>
+    <circle cx="14" cy="14" r="4" fill="#ff2d75"/>
+    <text x="26" y="18" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">01 • ENGINEERING • EMBEDDED SYSTEMS • VLSI</text>
+  </g>
+
+  <!-- Big Name -->
+  <text x="48" y="132" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="54" font-weight="800" letter-spacing="-0.5">B. Varsha Kumar.</text>
+
+  <!-- Subtitle Pill -->
+  <g transform="translate(48, 154)">
+    <rect width="455" height="26" rx="13" fill="#2d0f28" stroke="#ff2d75" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="16" y="17" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" letter-spacing="0.8">ECE UNDERGRAD • EMBEDDED SYSTEMS • VLSI • SOFTWARE DEV</text>
+  </g>
+
+  <!-- Description / Tagline -->
+  <text x="48" y="215" fill="#f472b6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500">Engineering intelligence. Designing hardware &amp; software architectures.</text>
+  <text x="48" y="242" fill="#d4a5c3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">B.Tech ECE • SRM University AP • 2027 Graduating Batch • CGPA: 7.52</text>
+
+  <!-- Bottom Action Buttons -->
+  <g transform="translate(48, 290)">
+    <rect width="210" height="42" rx="21" fill="url(#roseAccent)" filter="url(#shadow)"/>
+    <text x="105" y="26" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" letter-spacing="1" text-anchor="middle">🚀 LIVE PORTFOLIO ➔</text>
+  </g>
+
+  <g transform="translate(270, 290)">
+    <rect width="130" height="42" rx="21" fill="#260b22" stroke="#ff2d75" stroke-opacity="0.4" stroke-width="1.2"/>
+    <text x="65" y="26" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">💼 LINKEDIN</text>
+  </g>
+
+  <g transform="translate(412, 290)">
+    <rect width="120" height="42" rx="21" fill="#260b22" stroke="#ff2d75" stroke-opacity="0.4" stroke-width="1.2"/>
+    <text x="60" y="26" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🐙 GITHUB</text>
+  </g>
+
+  <g transform="translate(544, 290)">
+    <rect width="115" height="42" rx="21" fill="#260b22" stroke="#ff2d75" stroke-opacity="0.4" stroke-width="1.2"/>
+    <text x="57" y="26" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">✉️ EMAIL</text>
+  </g>
+
+  <!-- Right Side: Architectural Silicon Chip Emblem (Authentic Vector Artwork) -->
+  <g transform="translate(770, 190)">
+    <ellipse cx="0" cy="0" rx="118" ry="118" stroke="#ff2d75" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4"/>
+    <circle cx="0" cy="0" r="104" stroke="url(#roseAccent)" stroke-width="1.8" stroke-opacity="0.5"/>
+    <circle cx="0" cy="0" r="88" fill="url(#chipGrad)" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+
+    <!-- Silicon IC Geometry -->
+    <rect x="-42" y="-42" width="84" height="84" rx="10" fill="#170515" stroke="#ff2d75" stroke-width="1.5"/>
+    <rect x="-28" y="-28" width="56" height="56" rx="6" fill="#2a0c25" stroke="#ff6584" stroke-opacity="0.5" stroke-width="1"/>
+
+    <!-- Microchip Pins -->
+    <line x1="-52" y1="-20" x2="-42" y2="-20" stroke="#ff2d75" stroke-width="2"/>
+    <line x1="-52" y1="0" x2="-42" y2="0" stroke="#ff2d75" stroke-width="2"/>
+    <line x1="-52" y1="20" x2="-42" y2="20" stroke="#ff2d75" stroke-width="2"/>
+    <line x1="42" y1="-20" x2="52" y2="-20" stroke="#ff2d75" stroke-width="2"/>
+    <line x1="42" y1="0" x2="52" y2="0" stroke="#ff2d75" stroke-width="2"/>
+    <line x1="42" y1="20" x2="52" y2="20" stroke="#ff2d75" stroke-width="2"/>
+
+    <line x1="-20" y1="-52" x2="-20" y2="-42" stroke="#ff2d75" stroke-width="2"/>
+    <line x1="0" y1="-52" x2="0" y2="-42" stroke="#ff2d75" stroke-width="2"/>
+    <line x1="20" y1="-52" x2="20" y2="-42" stroke="#ff2d75" stroke-width="2"/>
+    <line x1="-20" y1="42" x2="-20" y2="52" stroke="#ff2d75" stroke-width="2"/>
+    <line x1="0" y1="42" x2="0" y2="52" stroke="#ff2d75" stroke-width="2"/>
+    <line x1="20" y1="42" x2="20" y2="52" stroke="#ff2d75" stroke-width="2"/>
+
+    <!-- Chip Core Text -->
+    <text x="0" y="-4" fill="#ffffff" font-family="'Fira Code', monospace" font-size="11" font-weight="700" text-anchor="middle">SRM AP</text>
+    <text x="0" y="12" fill="#ff6584" font-family="'Fira Code', monospace" font-size="9" font-weight="600" text-anchor="middle">ECE • '27</text>
+
+    <!-- Orbital Dots -->
+    <circle cx="-80" cy="-65" r="4" fill="#ff2d75"/>
+    <circle cx="90" cy="45" r="3.5" fill="#ff6584"/>
+  </g>
+
+  <!-- Badge under emblem -->
+  <g transform="translate(695, 308)">
+    <rect width="150" height="26" rx="13" fill="#1b0718" stroke="#ff2d75" stroke-opacity="0.4" stroke-width="1"/>
+    <circle cx="14" cy="13" r="3.5" fill="#10b981"/>
+    <text x="26" y="17" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">SRM UNIVERSITY AP</text>
+  </g>
+</svg>

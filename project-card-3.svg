@@ -1,0 +1,51 @@
+<svg width="960" height="215" viewBox="0 0 960 215" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pcardBg_Washing-Machine-using-PIC16F877A" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#21081e"/>
+      <stop offset="100%" stop-color="#160414"/>
+    </linearGradient>
+    <linearGradient id="pBtnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2d75"/>
+      <stop offset="100%" stop-color="#ff6584"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="956" height="211" rx="16" fill="url(#pcardBg_Washing-Machine-using-PIC16F877A)" stroke="#431439" stroke-width="1.3"/>
+
+  <!-- Category Tag -->
+  <text x="42" y="38" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.2">03 | DETERMINISTIC FIRMWARE | PIC16F877A • EMBEDDED C</text>
+
+  <!-- Title -->
+  <text x="42" y="74" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="700">Industrial Washing Machine Controller</text>
+
+  <!-- Description -->
+  <text x="42" y="104" fill="#d4a5c3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" width="800">
+    <tspan x="42" dy="0">Industrial-grade washing machine firmware programmed on PIC16F877A. Built on a non-blocking Finite State Machine (F</tspan>
+    <tspan x="42" dy="19">SM) utilizing hardware Timer0 interrupts, matrix keypad decoding, and 16x2 LCD diagnostics.</tspan>
+  </text>
+
+  <!-- Pills -->
+  
+    <g transform="translate(42, 145)">
+      <rect width="144.0" height="24" rx="12" fill="#280b24" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="72.0" y="16" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">FSM Architecture</text>
+    </g>
+    <g transform="translate(196.0, 145)">
+      <rect width="219.0" height="24" rx="12" fill="#280b24" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="109.5" y="16" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Timer0 / Timer2 Interrupts</text>
+    </g>
+    <g transform="translate(425.0, 145)">
+      <rect width="166.5" height="24" rx="12" fill="#280b24" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="83.25" y="16" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">PICSimLab Validated</text>
+    </g>
+    <g transform="translate(601.5, 145)">
+      <rect width="106.5" height="24" rx="12" fill="#280b24" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="53.25" y="16" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">MPLAB X IDE</text>
+    </g>
+
+  <!-- Action CTA Button -->
+  <g transform="translate(730, 80)">
+    <rect width="188" height="40" rx="20" fill="url(#pBtnGrad)"/>
+    <text x="94" y="25" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.5" text-anchor="middle">VIEW REPOSITORY ➔</text>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+<svg width="960" height="340" viewBox="0 0 960 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="scardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22091f"/>
+      <stop offset="100%" stop-color="#160415"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="956" height="336" rx="18" fill="#150413" stroke="#3d1234" stroke-width="1.3"/>
+
+  <!-- Section Header -->
+  <text x="42" y="36" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="2">04 • THE TOOLS I REACH FOR</text>
+  <text x="42" y="66" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="700">Engineering &amp; Software Arsenal</text>
+
+  <!-- Card 1: Programming -->
+  <g transform="translate(42, 88)">
+    <rect width="206" height="220" rx="14" fill="url(#scardBg)" stroke="#ff2d75" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="20" y="32" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">01 • LANGUAGES</text>
+    <text x="20" y="62" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">C</text>
+    <text x="20" y="88" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Embedded C</text>
+    <text x="20" y="114" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Python</text>
+    <text x="20" y="140" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">JavaScript</text>
+    <text x="20" y="164" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">HTML5 / CSS3</text>
+    <text x="20" y="196" fill="#9c6d8d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">FIRMWARE &amp; SCRIPTING</text>
+  </g>
+
+  <!-- Card 2: Embedded & IoT -->
+  <g transform="translate(266, 88)">
+    <rect width="206" height="220" rx="14" fill="url(#scardBg)" stroke="#ff2d75" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="20" y="32" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">02 • EMBEDDED &amp; IOT</text>
+    <text x="20" y="62" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Arduino Uno</text>
+    <text x="20" y="88" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">ESP32 SoC</text>
+    <text x="20" y="114" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">PIC16F877A</text>
+    <text x="20" y="140" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">IoT &amp; Blynk Cloud</text>
+    <text x="20" y="164" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">UART, Timers, Relays</text>
+    <text x="20" y="196" fill="#9c6d8d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">HARDWARE CONTROL</text>
+  </g>
+
+  <!-- Card 3: VLSI & Digital Design -->
+  <g transform="translate(490, 88)">
+    <rect width="206" height="220" rx="14" fill="url(#scardBg)" stroke="#ff2d75" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="20" y="32" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">03 • VLSI &amp; LOGIC</text>
+    <text x="20" y="62" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Cadence Virtuoso</text>
+    <text x="20" y="88" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Verilog HDL</text>
+    <text x="20" y="114" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Digital Electronics</text>
+    <text x="20" y="140" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">CMOS Fundamentals</text>
+    <text x="20" y="164" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">RTL Architecture</text>
+    <text x="20" y="196" fill="#9c6d8d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">SILICON &amp; RTL TRACK</text>
+  </g>
+
+  <!-- Card 4: Tools & Platforms -->
+  <g transform="translate(714, 88)">
+    <rect width="204" height="220" rx="14" fill="url(#scardBg)" stroke="#ff2d75" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="20" y="32" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">04 • TOOLS &amp; SUITES</text>
+    <text x="20" y="62" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Xilinx Vivado</text>
+    <text x="20" y="88" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">MPLAB X IDE</text>
+    <text x="20" y="114" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">PICSimLab</text>
+    <text x="20" y="140" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">MATLAB Simulation</text>
+    <text x="20" y="164" fill="#e2cad8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">Git, GitHub, VS Code</text>
+    <text x="20" y="196" fill="#9c6d8d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">DEV &amp; SIMULATION</text>
+  </g>
+</svg>

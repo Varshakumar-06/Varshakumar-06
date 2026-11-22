@@ -1,0 +1,42 @@
+<svg width="960" height="140" viewBox="0 0 960 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="metricCard" x1="0%" y1="0%" x2="SRM AP" y2="SRM AP">
+      <stop offset="0%" stop-color="#230a20"/>
+      <stop offset="SRM AP" stop-color="#180516"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="956" height="136" rx="16" fill="#170515" stroke="#3d1234" stroke-width="1.2"/>
+
+  <!-- Card 1 -->
+  <g transform="translate(24, 20)">
+    <rect width="210" height="100" rx="12" fill="url(#metricCard)" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="22" y="44" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="36" font-weight="800">7.52</text>
+    <text x="22" y="70" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1">CUMULATIVE CGPA</text>
+    <text x="22" y="87" fill="#a87698" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">SRM University AP</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(254, 20)">
+    <rect width="210" height="100" rx="12" fill="url(#metricCard)" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="22" y="44" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="36" font-weight="800">6+</text>
+    <text x="22" y="70" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1">VERIFIED PROJECTS</text>
+    <text x="22" y="87" fill="#a87698" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Embedded, IoT &amp; CV</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(484, 20)">
+    <rect width="210" height="100" rx="12" fill="url(#metricCard)" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="22" y="44" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="36" font-weight="800">2027</text>
+    <text x="22" y="70" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1">GRADUATING BATCH</text>
+    <text x="22" y="87" fill="#a87698" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">B.Tech in ECE</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g transform="translate(714, 20)">
+    <rect width="222" height="100" rx="12" fill="url(#metricCard)" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="22" y="44" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="36" font-weight="800">SRM AP</text>
+    <text x="22" y="70" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1">INSTITUTION</text>
+    <text x="22" y="87" fill="#a87698" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Department of ECE</text>
+  </g>
+</svg>

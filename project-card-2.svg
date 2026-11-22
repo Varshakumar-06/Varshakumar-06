@@ -1,0 +1,51 @@
+<svg width="960" height="215" viewBox="0 0 960 215" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pcardBg_Varsha-kumar-Smart-Home-Automation-" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#21081e"/>
+      <stop offset="100%" stop-color="#160414"/>
+    </linearGradient>
+    <linearGradient id="pBtnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2d75"/>
+      <stop offset="100%" stop-color="#ff6584"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="956" height="211" rx="16" fill="url(#pcardBg_Varsha-kumar-Smart-Home-Automation-)" stroke="#431439" stroke-width="1.3"/>
+
+  <!-- Category Tag -->
+  <text x="42" y="38" fill="#ff6584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.2">02 | IOT & DUAL-CORE MICROARCHITECTURE | ESP32 • C++ • CLOUD</text>
+
+  <!-- Title -->
+  <text x="42" y="74" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="700">ESP32 Smart Home Automation</text>
+
+  <!-- Description -->
+  <text x="42" y="104" fill="#d4a5c3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" width="800">
+    <tspan x="42" dy="0">Intelligent home automation system built on the dual-core ESP32 SoC. Segregates network telemetry and deterministic</tspan>
+    <tspan x="42" dy="19"> relay state execution with optocoupler electrical isolation and voice assistant control.</tspan>
+  </text>
+
+  <!-- Pills -->
+  
+    <g transform="translate(42, 145)">
+      <rect width="136.5" height="24" rx="12" fill="#280b24" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="68.25" y="16" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Dual-Core ESP32</text>
+    </g>
+    <g transform="translate(188.5, 145)">
+      <rect width="174.0" height="24" rx="12" fill="#280b24" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="87.0" y="16" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Opto-Isolated Relays</text>
+    </g>
+    <g transform="translate(372.5, 145)">
+      <rect width="136.5" height="24" rx="12" fill="#280b24" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="68.25" y="16" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">WiFi Web Server</text>
+    </g>
+    <g transform="translate(519.0, 145)">
+      <rect width="189.0" height="24" rx="12" fill="#280b24" stroke="#ff2d75" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="94.5" y="16" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Google Assistant Voice</text>
+    </g>
+
+  <!-- Action CTA Button -->
+  <g transform="translate(730, 80)">
+    <rect width="188" height="40" rx="20" fill="url(#pBtnGrad)"/>
+    <text x="94" y="25" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.5" text-anchor="middle">VIEW REPOSITORY ➔</text>
+  </g>
+</svg>
