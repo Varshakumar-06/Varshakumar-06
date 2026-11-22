@@ -6,11 +6,20 @@
 
 <br/>
 
-<!-- HERO BANNER -->
+<!-- HERO BANNER (NO OVERARCHING HYPERLINK) -->
 <p align="center">
-  <a href="https://portfolio-beta-rust-xm0g3t4cy3.vercel.app/">
-    <img src="hero-banner.svg" alt="B. Varsha Kumar - ECE & Developer Portfolio" width="100%"/>
-  </a>
+  <img src="hero-banner.svg" alt="B. Varsha Kumar - ECE & Developer Portfolio" width="100%"/>
+</p>
+
+<!-- HERO ACTION BUTTONS (INDIVIDUALLY HYPERLINKED) -->
+<p align="center">
+  <a href="https://portfolio-beta-rust-xm0g3t4cy3.vercel.app/" target="_blank" rel="noopener noreferrer"><img src="button-portfolio.svg" height="42" alt="Explore Live Portfolio"/></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/varsha-kumar-b64822343/" target="_blank" rel="noopener noreferrer"><img src="button-linkedin.svg" height="42" alt="LinkedIn Profile"/></a>
+  &nbsp;
+  <a href="https://github.com/Varshakumar-06" target="_blank" rel="noopener noreferrer"><img src="button-github.svg" height="42" alt="GitHub Profile"/></a>
+  &nbsp;
+  <a href="mailto:varshakumarballi@gmail.com"><img src="button-email.svg" height="42" alt="Send Email"/></a>
 </p>
 
 <!-- SRM UNIVERSITY AP OFFICIAL SEAL / LOGO -->
@@ -100,9 +109,7 @@
 
 <!-- CONNECT & CONTACT BANNER -->
 <p align="center">
-  <a href="https://portfolio-beta-rust-xm0g3t4cy3.vercel.app/">
-    <img src="connect-banner.svg" alt="Connect with B. Varsha Kumar" width="100%"/>
-  </a>
+  <img src="connect-banner.svg" alt="Connect with B. Varsha Kumar" width="100%"/>
 </p>
 
 <div align="center">
